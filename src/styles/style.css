@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background-image: url("../images/background2.jpg");
+	background-size: cover;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.heading, .sub-heading {
+	font-family: sans-serif;
+}
+
+.heading {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.sub-heading {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+nav {
+	background-color: #444;
+	padding: 8px;
+	margin-bottom: 15px;
+}
+
+/*Styling Links*/
+nav a:link {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	font-weight: bold;
+}
+
+nav a:active {
+	color: #fff;
+}
+
+nav a:link:last-child {
+	margin-right: 0px;
+}
+
+table {
+	width: 100%;
+	border: 2px solid #000;
+	border-collapse: collapse;
+	background-color: #fff;
+}
+
+th, td {
+	border-color: #ddd;
+}
+
+.lists {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+.first-list {
+	list-style: square;
+}
+
+.hr1 {
+	border-top: 2px solid #000;
+	margin: 15px 0;
+}
+
+.hr2 {
+	border-top: 2px solid #000;
+	margin: 8px 0;
+}
+
+footer {
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+footer p {
+	margin-bottom: 5px;
+}
